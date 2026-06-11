@@ -11,13 +11,16 @@
   :dependencies [[org.clojure/clojure "1.12.5"]
                  [org.clojure/tools.logging "1.3.1"]
                  [org.irods.jargon/jargon-core "4.3.7.0-RELEASE"
+                  :upgrade false
                   :exclusions [[org.jglobus/JGlobus-Core]
                                [org.slf4j/slf4j-api]
                                [org.slf4j/slf4j-log4j12]]]
                  [org.irods.jargon/jargon-data-utils "4.3.7.0-RELEASE"
+                  :upgrade false
                   :exclusions [[org.slf4j/slf4j-api]
                                [org.slf4j/slf4j-log4j12]]]
                  [org.irods.jargon/jargon-ticket "4.3.7.0-RELEASE"
+                  :upgrade false
                   :exclusions [[org.slf4j/slf4j-api]
                                [org.slf4j/slf4j-log4j12]]]
                  [cheshire "5.13.0"
