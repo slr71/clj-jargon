@@ -31,7 +31,7 @@
                   :exclusions [[com.fasterxml.jackson.core/jackson-databind]]]
                  [dev.weavejester/medley "1.10.0"]
                  [slingshot "0.12.2"]
-                 [org.cyverse/clojure-commons "3.0.12"]]
+                 [org.cyverse/clojure-commons "3.0.13"]]
   :profiles {:repl {:source-paths ["repl"]}}
   :eastwood {:exclude-linters [:unlimited-use :non-dynamic-earmuffs]}
   :repositories [["cyverse-de"
